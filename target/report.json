@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To validate the Login functionality",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-validate-the-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84052795904,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in Facebook application Login page",
+            "match": {
+              "location": "StepDef.user_in_Facebook_application_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4233227163,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter username and password",
+            "match": {
+              "location": "StepDef.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[F]acebook\u003e but was:\u003c[f]acebook\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat org.stepdef.StepDef.user_Click_Login_button(StepDef.java:38)\r\n\tat ✽.User Click Login button(src/test/resources/Features/Login.feature:6)\r\n",
+              "duration": 430728439,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User Click Login button",
+            "match": {
+              "location": "StepDef.user_Click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19187,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be in invalid Credentials page",
+            "match": {
+              "location": "StepDef.user_should_be_in_invalid_Credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
